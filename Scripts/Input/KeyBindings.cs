@@ -1,9 +1,10 @@
+using UnityEngine;
 using System;
 
 [System.Serializable]
 public class KeyBindings {
-    private KeyBind[] KeyBinds;
-    private MouseKeyBind[] MouseKeyBinds;
+    [SerializeField] private KeyBind[] KeyBinds;
+    [SerializeField] private MouseKeyBind[] MouseKeyBinds;
 
     public string GetKey(string Func) {
         KeyBind Key = Array.Find(KeyBinds, key => key.Func == Func);
