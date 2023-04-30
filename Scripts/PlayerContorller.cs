@@ -52,5 +52,6 @@ public class PlayerContorller : MonoBehaviour{
 
     public void TakeDamage(int Damage = 1) {
         Health -= Damage;
+        Debug.Log(Health);
     }
 }
