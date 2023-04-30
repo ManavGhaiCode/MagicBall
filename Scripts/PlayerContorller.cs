@@ -4,8 +4,10 @@ public class PlayerContorller : MonoBehaviour{
     public float speed = 5f;
 
     [SerializeField] private KeyBindings KeyBinds;
+
     private Vector2 MoveInput;
     private Rigidbody2D rb;
+    private int Health = 5;
 
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
@@ -41,5 +43,9 @@ public class PlayerContorller : MonoBehaviour{
         }
 
         return 0f;
+    }
+
+    public void TakeDamage(int Damage = 1) {
+        Health -= Damage;
     }
 }
