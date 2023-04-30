@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Goal : MonoBehaviour {
+public class Core : MonoBehaviour {
     [SerializeField] private PlayerContorller Player;
 
     private void OnTriggerEnter2D(Collision2D hitInfo) {
