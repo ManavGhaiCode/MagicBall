@@ -8,8 +8,8 @@ public class ball : MonoBehaviour {
     }
 
     private void Update() {
-        if (rb.velocity.magnitude > 10) {
-            rb.velocity = rb.velocity.normalized * 10;
+        if (rb.velocity.magnitude > 7) {
+            rb.velocity = rb.velocity.normalized * 7;
         }
     }
 }
