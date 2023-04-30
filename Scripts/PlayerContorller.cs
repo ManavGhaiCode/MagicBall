@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[System.Serializable]
 public class PlayerContorller : MonoBehaviour{
     public float speed = 5f;
 
