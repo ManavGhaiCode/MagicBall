@@ -431,7 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f955b1a13831938788ca331f3ea3ed08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 8
   KeyBinds:
     KeyBinds:
     - Func: moveRight
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f955b1a13831938788ca331f3ea3ed08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 8
   KeyBinds:
     KeyBinds:
     - Func: moveRight
