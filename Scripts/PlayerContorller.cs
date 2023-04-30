@@ -17,6 +17,10 @@ public class PlayerContorller : MonoBehaviour{
     private void Update() {
         MoveInput.x = InputX();
         MoveInput.y = InputY();
+
+        if (Health <= 0) {
+            Destroy(gameObject);
+        }
     }
 
     private void FixedUpdate() {
