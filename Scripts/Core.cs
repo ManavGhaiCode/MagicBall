@@ -9,6 +9,7 @@ public class Core : MonoBehaviour {
 
             if (ball != null) {
                 Player.TakeDamage();
+                hitInfo.GetComponent<Ball>().ResetBall();
             }
         }
     }
