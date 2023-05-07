@@ -1820,6 +1820,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResetPosition: {fileID: 1247564165}
   HitParticleSys: {fileID: 2629970919218550840, guid: 6ff32284e21aa7a0fbbee152e2c20c7f, type: 3}
+  BallRDParticalEffect: {fileID: 4388027914565985064, guid: 43afec21c16ba95a784764daca29722c, type: 3}
+  BallRSParticalEffect: {fileID: 4262972613079740694, guid: c3e5ee8d840cb738e86a265f0aabfdc1, type: 3}
 --- !u!1 &1924569795
 GameObject:
   m_ObjectHideFlags: 0
